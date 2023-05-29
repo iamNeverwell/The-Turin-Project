@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pesquisa - Brasileiros em Turim</title>
+  <br>
+  <hr>
+</head>
+<body>
+  <h1>Pesquisa - Brasileiros em Turim</h1>
+  <form>
+  
+  <h5>Por favor, preencha todos os campos abaixo e nos comunicaremos com você em breve:</h3>
+  <hr>
+  <h2>Quem é você?</h2>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name"><br><br>
+    
+    <label for="lastname">Sobrenome:</label>
+    <input type="text" id="lastname" name="lastname"><br><br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+    
+    <label for="cel_main">Número Celular<br> (com código do país):</label>
+    <input type="tel" id="cel_main" name="cel_main"><br><br>
+    
+    <label for="whatsapp">Tem Whatsapp?:</label>
+    <select id="whatsapp" name="whatsapp">
+      <option value="yes">Sim</option>
+      <option value="no">Não</option>
+    </select><br><br>
+    
+    <label for="cel_whatsapp">Número Celular no Whatsapp
+    <br>Se for diferente do acima
+    <br>(com código do país):</label>
+    <input type="tel" id="cel_whatsapp" name="cel_whatsapp"><br><br>
+    
+    <label for="age">Idade:</label>
+    <input type="number" id="age" name="age"><br><br>
+    
+    <label for="gender">Sexo:</label>
+    <select id="gender" name="gender">
+      <option value="male">Masculino</option>
+      <option value="female">Feminino</option>
+      <option value="other">Outro</option>
+    </select><br><br>
+    
+    <label for="residing_address">Endereço aonde reside(pode ser só o bairro ou CAP):</label>
+    <input type="text" id="residing_address" name="residing_address"><br><br>
+    <br>
+    <label for="address_option1">1.Busco trabalho também em:</label>
+    <input type="text" id="address_option1" name="address_option1"><br><br>
+    <br>
+     <label for="address_option2">2.Busco trabalho também em:</label>
+    <input type="text" id="address_option2" name="address_option2"><br><br>
+    <br>
+     <label for="address_option3">3.Busco trabalho também em:</label>
+    <input type="text" id="address_option3" name="address_option3"><br><br>
+    <br>
+    
+    <hr>
+    <h2>Como podemos nos comunicar com você?</h2>
+    <label for="metodo">Método preferido de comunicação:</label>
+    <select id="metodo" name="metodo">
+      <option value="email">Email</option>
+      <option value="celular">Celular</option>
+    </select><br><br>
+    
+      <label>Dias preferidos para comunicação
+      <br>(selecione todos os que você quiser):</label><br>
+    <input type="checkbox" id="segunda" name="dia" value="segunda">
+    <label for="segunda">Segunda-feira</label><br>
+    
+    <input type="checkbox" id="terca" name="dia" value="terca">
+    <label for="terca">Terça-feira</label><br>
+    
+    <input type="checkbox" id="quarta" name="dia" value="quarta">
+    <label for="quarta">Quarta-feira</label><br>
+    
+    <input type="checkbox" id="quinta" name="dia" value="quinta">
+    <label for="quinta">Quinta-feira</label><br>
+    
+    <input type="checkbox" id="sexta" name="dia" value="sexta">
+    <label for="sexta">Sexta-feira</label><br>
+    
+    <input type="checkbox" id="sabado" name="dia" value="sabado">
+    <label for="sabado">Sábado</label><br>
+    
+    <input type="checkbox" id="domingo" name="dia" value="domingo">
+    <label for="domingo">Domingo</label><br><br>
+    
+     <label>Horas preferidas para comunicação
+     <br>(selecione todos os que você quiser):</label><br>
+    <input type="checkbox" id="7_12" name="hora" value="7_12">
+    <label for="segunda">Entre 7 AM e 12 PM</label><br>
+    
+    <input type="checkbox" id="1_4" name="hora" value="1_4">
+    <label for="segunda">Entre 1 PM e 4 PM</label><br>
+    
+    <input type="checkbox" id="5_11" name="hora" value="5_11">
+    <label for="segunda">Entre 5 PM e 11 PM</label><br>
+    <br>
+    <hr>
+    <h2>Quais são as suas experiências de Trabalho?</h2>
+    <br>
+    <label for="experiencia1">1.Experiência de trabalho em:</label>
+    <input type="text" id="experiencia1" name="experiencia1"><br><br>
+    
+    <label for="anos_experiencia1">1.Quantos anos de experiência:</label>
+    <input type="number" id="anos_experiencia1" name="anos_experiencia1">
+    <br><br><br>
+     
+     <label for="experiencia2">2.Experiência de trabalho em:</label>
+    <input type="text" id="experiencia2" name="experiencia2">
+    <br><br>
+    <label for="anos_experiencia2">2.Quantos anos de experiência:</label>
+    <input type="number" id="anos_experiencia2" name="anos_experiencia2">
+    <br><br><br>
+    
+     <label for="experiencia3">3.Experiência de trabalho em:</label>
+    <input type="text" id="experiencia3" name="experiencia3"><br><br>
+    
+    <label for="anos_experiencia3">3.Quantos anos de experiência:</label>
+    <input type="number" id="anos_experiencia3" name="anos_experiencia3"><br>
+    <br>
+    <label for="linkedin">Preencha aqui o seu LinkedIn:
+    <br>
+    https://www.linkedin.com/in/</label>
+    <input type="text" id="linkedin" name="linkedin"><br>
+    <br>
+    
+    
+    <br>
+    
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+</html>
